@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environment — never commit
+.venv/
+venv/
+env/
+
+# Secrets — never commit
+.env
+
+# Streamlit cache
+.streamlit/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Large raw video frames (commit the final MP4 only)
+results/frames/
+
+# Large raw eval outputs
+results/raw_*.jsonl
